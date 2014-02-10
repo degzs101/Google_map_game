@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+#map-canvas {
+    width: 1450px;
+    height:950px
+}
+
+#county {
+    position: absolute;
+    left: 225px;
+    top: 350px;
+    width: 280px;
+    height: 70px;
+    background:blue;
+    color: white;
+    padding: 10px;
+    white-space:nowrap;
+    font-size:35px;
+    text-align:center;
+    border-style:solid;
+    border-width:10px;
+    z-index:555;
+}
+
+#question {
+    position: absolute;
+    left: 225px;
+    top: 210px;
+    width: 280px;
+    height: 70px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    white-space:nowrap;
+    font-size:35px;
+    text-align:center;
+    border-style:solid;
+    border-width:10px;
+    z-index:555;
+}
+
+#answer {
+    position: absolute;
+    left: 225px;
+    top: 490px;
+    width: 280px;
+    height: 70px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    white-space:nowrap;
+    font-size:35px;
+    text-align:center;
+    border-style:solid;
+    border-width:10px;
+    z-index:555;
+}
